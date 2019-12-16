@@ -1,5 +1,5 @@
 <?php
-while true;
+while (true);
 require 'hitprofile.php';
 require 'hitproduk.php';
 ?>
