@@ -1,6 +1,6 @@
 <?php
 while (true){
-require 'hitprofile.php';
-require 'hitproduk.php';
+include 'hitprofile.php';
+include 'hitproduk.php';
 }
 ?>
