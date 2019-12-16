@@ -15,7 +15,7 @@ params = (
     ('src', 'tokopedia.by'),
 )
 
-response = requests.get('https://www.tokopedia.com/people/35042989/mujurid', headers=headers, params=params, verify='/etc/ssl/certs/ca-certificates.crt)
+response = requests.get('https://www.tokopedia.com/people/35042989/mujurid', headers=headers, params=params, verify='/etc/ssl/certs/ca-certificates.crt')
 
 #NB. Original query string below. It seems impossible to parse and
 #reproduce query strings 100% accurately so the one below is given
